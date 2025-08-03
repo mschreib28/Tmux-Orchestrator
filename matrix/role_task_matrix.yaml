@@ -1,0 +1,21 @@
+phases:
+  discovery:
+    product: generate_initial_ideas
+    research: simulate_user_feedback
+    growth: early_persona_sketch
+    compete: competitive_scan
+    scribe: summarize_round_one
+
+  scoring:
+    product: refine_based_on_feedback
+    research: assess_interest_signals
+    tech: score_build_complexity
+    growth: estimate_cost_per_acquisition
+    scribe: build_scoring_table
+
+  mvp_spec:
+    tech: write_mvp_plan
+    product: define_must-have_features
+    growth: validate_gtm
+    scribe: consolidate_all_outputs
+

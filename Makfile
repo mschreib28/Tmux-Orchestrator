@@ -1,0 +1,13 @@
+run:
+\tbash scripts/launch.sh
+
+agents:
+\tbash scripts/run_all.sh
+
+clean:
+\trm -rf workspace/outputs/* workspace/agent_logs/*
+
+reset:
+\tmake clean
+\tmkdir -p workspace/ideas workspace/outputs workspace/agent_logs
+

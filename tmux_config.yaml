@@ -1,0 +1,14 @@
+sessions:
+  - name: validation-team
+    windows:
+      - name: agents
+        panes:
+          - name: agent_product
+            command: python run_agent.py --role product
+          - name: agent_research
+            command: python run_agent.py --role research
+          - name: agent_growth
+            command: python run_agent.py --role growth
+          - name: agent_scribe
+            command: python run_agent.py --role scribe
+
